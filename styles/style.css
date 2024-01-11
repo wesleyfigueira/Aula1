@@ -1,0 +1,22 @@
+.primeiradiv{
+    text-align: center;
+
+}
+#imagem{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.textoprincipal{
+    text-align: justify;
+    margin: 20 px;
+    
+}
+.linkedin{
+    text-decoration: none;
+    color: black; 
+}
+.linkedin:hover{
+    color: rgb(25, 0, 255);
+    
+}
