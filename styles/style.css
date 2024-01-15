@@ -1,5 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    margin: 0;
+    padding: 0;  
+}
 .primeiradiv{
     text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../imagens/pngtree-light-blue-futuristic-technology-background-with-digital-cubes-and-lines-image_424281.jpg);
+
 
 }
 #imagem{
@@ -7,16 +19,89 @@
     height: 300px;
     border-radius: 50%;
 }
-.textoprincipal{
-    text-align: justify;
-    margin: 20 px;
+.container{
+    display: flex;
+    background-image:url(../imagens/inovacao-e-tecnologia.jpg) ;
+    overflow: auto;
+    background-attachment: fixed; 
+
+}
+
+.aboutMe{
+    display: left;
+    width: 50%;
+    height: 500px;
+    background-image: url(../imagens/tech\ clara.jpg);
+    border-radius: 10%;
+    margin: 30px;
+    overflow: auto;
+    background-attachment: fixed; 
+ 
+}
+.aboutMe h1{
+    text-align: center;
     
+    
+}
+.tecnologias{
+    display: block;
+    width: 50%;
+    height: 500px;
+    background-image: url(../imagens/tech\ clara.jpg);
+    border-radius: 10%;
+    margin: 30px;
+    overflow: auto;
+    background-attachment: fixed; 
+}
+.tecnologias h1 {
+    text-align: center;
+}
+.tecnologias p{
+    text-align: center;
 }
 .linkedin{
     text-decoration: none;
-    color: black; 
+    color: black;
+    
 }
 .linkedin:hover{
     color: rgb(25, 0, 255);
     
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.entreEmContato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+   
+}
+form input,form textarea{
+    outline: unset;
+    padding: 20px;
+    min-width: 300px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+form input:focus, form textarea:focus{
+    background-color: rgb(231, 231, 231);
+}
+form label{
+    margin-left: 10px;
+}
+form input[type=submit]{
+    background-color: blue;
+    cursor: pointer;
+    color:white;
 }
